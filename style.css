@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+   font-family: "Montserrat";
+ 
+}
+
+h1,h2,h3,h4,h5,h6 { 
+    
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+
+}
+
+h2{
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/***ID Selector***/
+#title{
+    background-color: #081f37;
+    color: #fff;
+}
+
+#features{
+    background-color: #d3d6db;
+    padding: 12%;
+}
+
+#testimonials{
+    background-color: #2e79ba;
+    padding: 8% 0;
+    text-align: center;
+}
+
+/* Title Section */
+.container-fluid{
+    padding-bottom: 15%;
+}
+
+.big-heading, .big-heading-title{
+    padding-left: 6%;
+    position: relative;
+    top: 200px;
+}
+.big-heading{
+    font-family: "Montserrat", sans-serif; 
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}  
+
+.big-heading-title{
+    color: #fff;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 500px;
+    position: relative;
+    top: 100px;
+}
+
+/***Navigation Bar***/
+
+.nav-item{
+    padding: 0 40px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    padding: 0 10%;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 3rem;
+}
+
+@media (max-width: 992px){
+    
+    #title{
+        text-align: center;
+        padding: 3% 0;
+    }
+
+    .btn{
+        text-align: center;
+        position: relative;
+        left: 10px;
+    }
+    .title-image {
+        position: relative;
+        top: 15rem;
+    }
+
+    .container-fluid{
+        padding-bottom: 30%;
+    }
+}
+
+.btn{
+    position: relative;
+    right: 31.5%;
+    top: 200px;
+}
+
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Feature Section */
+.feature-box{
+    text-align: center;
+}
+
+/* Testimonials section */
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%; 
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
